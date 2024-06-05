@@ -2,6 +2,7 @@ import './App.css';
 // import HelloWord from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
 
 function App() {
   // const name = 'Guilherme'
@@ -21,6 +22,7 @@ function App() {
       <img src={uril} alt="Dog"/> */}
 
       {/* <HelloWord/> */}
+      <Frase/>
       
       <SayMyName nome="Matheus"/>
       <Pessoa 
